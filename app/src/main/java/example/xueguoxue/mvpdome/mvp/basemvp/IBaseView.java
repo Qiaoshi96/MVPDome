@@ -1,12 +1,13 @@
-package example.xueguoxue.mvpdome;
+package example.xueguoxue.mvpdome.mvp.basemvp;
 
 import android.content.Context;
 
 /**
- * Created by xueguoxue on 2018/3/22.
+ * Created by xueguoxue on 2018/3/23.
+ * 定义BaseView 让任何一个Activity都可以复用
  */
 
-public interface BaseView {
+public interface IBaseView {
     /**
      * 显示正在加载view
      */

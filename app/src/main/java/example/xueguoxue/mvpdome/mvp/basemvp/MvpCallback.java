@@ -1,4 +1,4 @@
-package example.xueguoxue.mvpdome;
+package example.xueguoxue.mvpdome.mvp.basemvp;
 
 /**
  * Created by xueguoxue on 2018/3/22.
@@ -6,7 +6,7 @@ package example.xueguoxue.mvpdome;
  * 增加泛型让每个model可以复用
  */
 
-public interface MvpCallback<T>  {
+public interface MvpCallback<T> {
     /**
      * 数据请求成
      * @param data
